@@ -28,12 +28,16 @@
   .outer {
     width: 100vw;
     height: 177.86666666vw;
-    background-color: aqua;
     position: relative;
-    background-image: url(./1初始化帐篷.jpg);
-    background-size: cover;
   }
 
+    video {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 0;
+  }
+    
   /* 这里为功能菜单的模块 */
   .functionmodule {
     width: 100vw;
@@ -80,6 +84,7 @@
 
 <body>
   <div class="outer">
+    <video src="./num1_animation.mp4" loop muted autoplay preload=”auto”></video>
     <!-- 内容模块 -->
     <ul class="contentmodule">
       <li>
